@@ -1,0 +1,88 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: sans-serif; }
+
+.bg-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 100%;
+  width: 100%; }
+
+.title {
+  text-align: center;
+  padding: 50px 0 20px; }
+
+.title-text {
+  margin: 0;
+  padding: 0;
+  color: #696969;
+  text-transform: uppercase;
+  font-size: 36px; }
+
+.container {
+  display: flex;
+  height: 400px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5); }
+  .container .left {
+    width: 50%;
+    height: inherit;
+    background: url(img/candy.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box; }
+  .container .right {
+    width: 50%;
+    height: inherit;
+    box-sizing: border-box; }
+  .container .formBox {
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: inherit;
+    background-color: #fff; }
+    .container .formBox p {
+      margin: 0;
+      padding: 0;
+      color: #a6af13;
+      font-weight: bold; }
+    .container .formBox input {
+      margin-bottom: 20px;
+      width: 100%; }
+    .container .formBox input[type="text"], .container .formBox input[type="password"] {
+      font-size: 16px;
+      border: none;
+      border-bottom: 2px solid #a6af13;
+      outline: none;
+      height: 40px;
+      transition: .7s; }
+      .container .formBox input[type="text"]:focus, .container .formBox input[type="password"]:focus {
+        border-bottom: 2px solid #262626; }
+    .container .formBox input[type="submit"] {
+      border: none;
+      outline: none;
+      height: 40px;
+      color: #fff;
+      background-color: #696969;
+      cursor: pointer;
+      transition: .5s;
+      font-size: 14px;
+      text-transform: uppercase; }
+      .container .formBox input[type="submit"]:hover {
+        background-color: #a6af13; }
+    .container .formBox a {
+      color: #696969;
+      font-size: 12px;
+      font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
